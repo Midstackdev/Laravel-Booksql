@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Category extends Model
 {
-    protected $gaurded = [];
+    protected $guarded = [];
 
     public function books() 
     {
